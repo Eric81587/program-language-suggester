@@ -7,10 +7,10 @@ $(document).ready(function(){
     const Hair = $("#Hair").val();
     
 
-    if (Age + Height > Weight && Age + Weight > Height && Height + Weight > Age) {
-      if (Age === Height && Height == Weight) {
+    if (Here are the bones of this) {
+      if (this is where i need to write stuff down) {
         $("#Javascript").show();
-      } else if (Age === Height || Height === Weight || Age === Weight) {
+      } else if (to figure out how to make it work) {
         $("#CSharp").show();
       } else {
         $("#Python").show();
