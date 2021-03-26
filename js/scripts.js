@@ -1,16 +1,16 @@
 $(document).ready(function(){
   $("form#Suggester").submit(function(event){
-    const Age = $("#Age").val();
-    const Height = $("#Height").val();
-    const Wieght = $("#Weight").val();
-    const Eyes = $("#Eyes").val();
-    const Hair = $("#Hair").val();
+    const Age = parseInt($("#Age").val());
+    const Height = parseInt($("#Height").val());
+    const Wieght = parseInt($("#Weight").val());
+    const Eyes = parseInt($("#Eyes").val());
+    const Hair = parseInt($("#Hair").val());
     
 
-    if (Here are the bones of this) {
-      if (this is where i need to write stuff down) {
+    if (Age < 0) 
+      if (Age < 0) {
         $("#Javascript").show();
-      } else if (to figure out how to make it work) {
+      } else if (Age > 0) {
         $("#CSharp").show();
       } else {
         $("#Python").show();
