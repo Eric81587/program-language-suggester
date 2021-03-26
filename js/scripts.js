@@ -7,15 +7,15 @@ $(document).ready(function(){
     const Hair = parseInt($("#Hair").val());
     
 
-    if (Age < 0) 
-      if (Age < 0) {
-        $("#Javascript").show();
-      } else if (Age > 0) {
-        $("#CSharp").show();
-      } else {
-        $("#Python").show();
-      }
-    } 
+     
+    if (Age >= 40) {
+      $(#Javascript).show();
+    } else if (Age <= 20) {
+      $(#CSharp).show();
+    } else {
+      $(#Python).show();
+    }
+     
       
     
 
