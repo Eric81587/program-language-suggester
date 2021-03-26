@@ -9,11 +9,11 @@ $(document).ready(function(){
 
      
     if (Age >= 40) {
-      $(#Javascript).show();
+      $('#Javascript').show();
     } else if (Age <= 20) {
-      $(#CSharp).show();
+      $('#CSharp').show();
     } else {
-      $(#Python).show();
+      $('#Python').show();
     }
      
       
